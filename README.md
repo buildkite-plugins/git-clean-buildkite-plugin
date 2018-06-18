@@ -15,7 +15,7 @@ steps:
     - node test
     plugins:
       git-clean-flags#v1.0.0:
-        flags: "-fdqx --exclude node_modules"
+        flags: "-fdqx --exclude=node_modules"
 ```
 
 ## Configuration
@@ -24,7 +24,7 @@ steps:
 
 The command line arguments to pass to `git clean`.
 
-Example: `"-fdqx --exclude node_modules"`
+Example: `"-fdqx --exclude=node_modules"`
 
 ## License
 

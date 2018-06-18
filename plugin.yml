@@ -1,0 +1,11 @@
+name: Git Clean
+description: Overrides the git clean flags for a job.
+author: https://github.com/buildkite
+requirements: []
+configuration:
+  properties:
+    clean:
+      type: string
+    required:
+      - clean
+    additionalProperties: false

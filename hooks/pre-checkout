@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -euo pipefail
+
+echo "~~~ Setting git clean flags"
+
+export BUILDKITE_GIT_CLEAN_FLAGS="${BUILDKITE_PLUGIN_GIT_CLEAN_FLAGS}"
+
+echo "git clean flags set to: ${BUILDKITE_GIT_CLEAN_FLAGS}"

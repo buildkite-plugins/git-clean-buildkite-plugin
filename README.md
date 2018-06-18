@@ -14,7 +14,7 @@ steps:
     - node install
     - node test
     plugins:
-      git-clean-flags#v0.0.1:
+      git-clean#v0.0.1:
         flags: "-fdqx --exclude=node_modules"
 ```
 

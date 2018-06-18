@@ -4,8 +4,8 @@ author: https://github.com/buildkite
 requirements: []
 configuration:
   properties:
-    clean:
+    flags:
       type: string
-    required:
-      - clean
     additionalProperties: false
+  required:
+    - flags

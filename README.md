@@ -11,8 +11,8 @@ The following will clean all files between running the job (including those in `
 ```yml
 steps:
   - commands:
-    - node install
-    - node test
+    - npm install
+    - npm test
     plugins:
       git-clean#v0.0.1:
         flags: "-fdqx --exclude=node_modules"

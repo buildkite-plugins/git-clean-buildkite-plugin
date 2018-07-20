@@ -12,5 +12,5 @@ steps:
 
   - label: ":shell: Tests"
     plugins:
-      docker-compose#v2.5.0:
+      docker-compose#v2.5.1:
         run: tests

@@ -1,4 +1,4 @@
-# Git Clean Buildkite Plugin
+# Git Clean Buildkite Plugin [![Build status](https://badge.buildkite.com/a900662bffe4351f5e779b68520cfd2bd3e38e3ffc612d67de.svg?branch=master)](https://buildkite.com/buildkite/plugins-git-clean)
 
 A [Buildkite plugin](https://buildkite.com/docs/agent/v3/plugins) for customizing the git clean flags. Helpful if you want to exlude directories from being removed between job runs on the same agent and pipeline.
 

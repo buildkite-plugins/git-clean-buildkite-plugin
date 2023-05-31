@@ -1,6 +1,6 @@
 #!/usr/bin/env bats
 
-load '/usr/local/lib/bats/load.bash'
+load "${BATS_PLUGIN_PATH}/load.bash"
 
 @test "Exports BUILDKITE_GIT_CLEAN_FLAGS" {
   export BUILDKITE_PLUGIN_GIT_CLEAN_FLAGS='-fdqx --exclude=node_modules'
